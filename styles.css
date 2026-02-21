@@ -65,6 +65,24 @@ a {
   margin-top: 15px;
 }
 
+.complete-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.complete-btn.completed {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+  cursor: default;
+}
+
 @media (max-width: 480px) {
   .object {
     font-size: 60px;
