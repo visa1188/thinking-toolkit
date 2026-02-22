@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="nav">
       <a href="index.html">Home</a> |
       <a href="sessions.html">Sessions</a>
+       <a href="about.html">About</a>
     </div>
   `;
 

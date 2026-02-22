@@ -83,6 +83,12 @@ a {
   cursor: default;
 }
 
+.session-link.completed::after {
+  content: " ✓";
+  color: #2e7d32;
+  font-weight: bold;
+}
+
 @media (max-width: 480px) {
   .object {
     font-size: 60px;

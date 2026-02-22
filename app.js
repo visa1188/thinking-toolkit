@@ -35,4 +35,15 @@ document.addEventListener("DOMContentLoaded", function () {
       completeBtn.disabled = true;
     });
   }
+
+  // Mark completed sessions on sessions page
+  const sessionLinks = document.querySelectorAll('.session-link');
+
+  sessionLinks.forEach(link => {
+    const sessionKey = link.dataset.session;
+
+    if (localStorage.getItem(sessionKey) === "done") {
+      link.classList.add("completed");
+    }
+  });
 });
