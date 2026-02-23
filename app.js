@@ -46,4 +46,22 @@ document.addEventListener("DOMContentLoaded", function () {
       link.classList.add("completed");
     }
   });
+
+  /* -------- Learning Mastery Indicator -------- */
+
+  const learningLinks = document.querySelectorAll(".learning-link");
+
+  learningLinks.forEach(link => {
+    const moduleName = link.dataset.module;
+    const mastered = localStorage.getItem(moduleName + "_mastered") === "true";
+
+    if (mastered) {
+      link.textContent =
+        link.textContent.trim() + " — Mastered";
+    } else {
+      link.textContent =
+        link.textContent.trim() + " — In Progress";
+    }
+  });
+
 });

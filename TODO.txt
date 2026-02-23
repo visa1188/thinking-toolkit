@@ -1,0 +1,6 @@
+Learning Modules in level 1:
+
+Fruits
+Vehicles
+
+As categories using Fruits, Vehicles apart from Animals in grouping

@@ -89,6 +89,32 @@ a {
   font-weight: bold;
 }
 
+/*Learning App */
+
+.module-section {
+  margin-top: 40px;
+}
+
+.feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+.learning-link.mastered::after {
+  content: " ✓";
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+#learning-list {
+  margin-top: 10px;
+}
+
+#learning-list li {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 480px) {
   .object {
     font-size: 60px;
