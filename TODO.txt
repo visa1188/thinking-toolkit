@@ -4,3 +4,5 @@ Fruits
 Vehicles
 
 As categories using Fruits, Vehicles apart from Animals in grouping
+
+Ranodm options during questions
